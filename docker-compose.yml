@@ -8,8 +8,9 @@ services:
       - "25565:25565"
     volumes:
       - "mc:/data"
+      - "mc/data/server.properties:./server.properties"
     environment:
-      EULA: "TRUE"
+      EULA: "false"
       CONSOLE: "true"
       ENABLE_RCON: "true"
       RCON_PASSWORD: "testing"
