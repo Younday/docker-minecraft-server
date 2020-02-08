@@ -8,7 +8,6 @@ services:
       - "25565:25565"
     volumes:
       - "mc:/data"
-      - "mc/data/server.properties:./server.properties"
     environment:
       EULA: "false"
       CONSOLE: "true"
