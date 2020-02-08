@@ -9,7 +9,7 @@ services:
     volumes:
       - "mc:/data"
     environment:
-      EULA: "true"
+      EULA: "TRUE"
       CONSOLE: "true"
       ENABLE_RCON: "true"
       RCON_PASSWORD: "testing"
