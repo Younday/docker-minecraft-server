@@ -25,5 +25,5 @@ services:
 
 volumes:
   mc:
-    driver: rexray/dobs
+    driver: rexray/dobs:latest
   rcon:
