@@ -26,4 +26,6 @@ services:
 volumes:
   mc:
     driver: rexray/dobs:latest
+    driver_opts:
+      size: 1
   rcon:
