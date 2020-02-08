@@ -25,5 +25,5 @@ services:
 
 volumes:
   mc:
-    external: true
+    driver: rexray/dobs
   rcon:
